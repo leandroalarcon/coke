@@ -1,0 +1,158 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    background-color: #44107A;
+    border: 1px, solid white;
+    padding: 20px;
+}
+
+.navegation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tPrincipal{
+    padding: 20px;
+}
+
+.ulList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+}
+
+li:hover{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    color: #231557;
+    border: 1px solid #231557;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.iconP{
+    width: 7%;
+}
+
+/* body */
+
+menu{
+    padding: 20px;
+}
+
+section{
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    color: black;
+    margin: 5px;
+    border-radius: 30px;
+    border: 5px solid #e4efe9;
+    box-shadow: 5px 5px 2px 2px;
+}
+
+.imgSec1, .imgSec2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.imgSecUno, .imgSecDos{
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.imgSecUno:hover{
+    width: 25%;
+    border:1px solid #b12a5b;
+    transition: all 0.2s ease-out;
+} 
+
+.imgSecDos:hover{
+    width: 25%;
+    border:1px solid #b12a5b;
+    transition: all 0.2s ease-out;
+}
+
+.p1, .p2{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.t1, .t2{
+    padding: 20px;
+    margin: 10px;
+}
+
+/* footer */
+
+footer{
+    background-color: #44107A;
+    padding: 20px;
+    border-top: 2px solid white;
+}
+.containerFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    padding: 20px;
+    width: 50%;
+}
+
+input, textarea{
+    padding: 10px;
+    margin: 5px;
+}
+
+.copy{
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    color: black;
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconSocial{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t3, .p3, h4{
+    padding: 20px;
+}
+
+.p3{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    color: white;
+}
+
+h4{
+    color: #231558;
+}
